@@ -35,6 +35,7 @@ CMD ["aafire"]
 ```bash
 docker build -t aafire_image .
 ```
+![photo_2024-12-10 17 21 02](https://github.com/user-attachments/assets/97ce3821-cdc3-4178-93b7-c6ecb6caa568)
 
 ---
 
@@ -44,8 +45,7 @@ docker build -t aafire_image .
 docker run -it --name container1 aafire_image
 docker run -it --name container2 aafire_image
 ```
-
-Скриншоты работы `aafire` находятся в приложении.
+![photo_2024-12-10 17 21 03 (1)](https://github.com/user-attachments/assets/1d2245dd-e069-4cf3-8873-01b9cca4500f)
 
 ---
 
@@ -73,7 +73,11 @@ docker network inspect myNetwork
 
 **Результаты пинга**:
 - Пинг от `container1` к `container2`: успешный, без потерь пакетов, минимальная задержка — 0.064 мс.
+  ![photo_2024-12-10 17 21 04](https://github.com/user-attachments/assets/b72ebc5c-6fd1-43c9-b00e-aa18a4cbe7a7)
+
 - Пинг от `container2` к `container1`: успешный, без потерь пакетов, минимальная задержка — 0.050 мс.
+  ![photo_2024-12-10 17 21 00](https://github.com/user-attachments/assets/5399bbe1-4657-4a0c-ac71-c2dbbfafb6ba)
+
 
 Скриншоты результатов пинга приложены.
 
@@ -83,9 +87,3 @@ docker network inspect myNetwork
 - Научились создавать образы и контейнеры в Docker.
 - Успешно настроена сеть между двумя контейнерами.
 - Проверена возможность их взаимодействия с использованием утилиты `ping`.
-
----
-
-## **Приложение**
-1. Скриншоты работы `aafire` в контейнерах.
-2. Скриншоты команд и вывода тестирования сети.
