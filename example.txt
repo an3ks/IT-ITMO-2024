@@ -1,0 +1,15 @@
+IT-ITMO-2024
+├── Lab3 Report + screenshots
+│   ├── connections_ph.jpg
+│   ├── ip_A.PNG
+│   ├── ip_B.PNG
+│   ├── ip_C.PNG
+│   ├── ping_Machine_A.png
+│   ├── ping_Machine_B.PNG
+│   ├── report lab3.md
+│   └── setevoy_most.PNG
+├── README.md
+├── example.txt
+├── report lab1.md
+├── report-IT-lab2.md
+└── report4.md
