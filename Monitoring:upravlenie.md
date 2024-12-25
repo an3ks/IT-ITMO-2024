@@ -78,6 +78,5 @@ echo "$DATE | CPU: $CPU_USAGE | Memory: $MEM_USAGE | Disk: $DISK_USAGE" >> $LOGF
 ## Дополнительные материалы
 - [Документация `htop`](https://htop.dev/)
 - [Руководство по `vmstat`](https://man7.org/linux/man-pages/man8/vmstat.8.html)
-- [Статья о `df` и `du`](https://linuxize.com/post/check-disk-space-linux/)
 
 ---
