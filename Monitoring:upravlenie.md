@@ -27,8 +27,6 @@
    htop
    ```
 3. Изучите интерфейс:
-   - Верхняя панель: использование CPU, памяти и свопа.
-   - Список процессов: отображение активных процессов.
 
 **Вопросы:**
 1. Как узнать, какой процесс потребляет больше всего ресурсов CPU?
@@ -70,7 +68,7 @@ echo "$DATE | CPU: $CPU_USAGE | Memory: $MEM_USAGE | Disk: $DISK_USAGE" >> $LOGF
    ```
 2. Добавьте задачу для выполнения скрипта каждые 10 минут:
    ```bash
-   */10 * * * * /path/to/your/script.sh
+   */10 * * * * path_to_your_script
    ```
 
 ---
@@ -78,5 +76,3 @@ echo "$DATE | CPU: $CPU_USAGE | Memory: $MEM_USAGE | Disk: $DISK_USAGE" >> $LOGF
 ## Дополнительные материалы
 - [Документация `htop`](https://htop.dev/)
 - [Руководство по `vmstat`](https://man7.org/linux/man-pages/man8/vmstat.8.html)
-
----
